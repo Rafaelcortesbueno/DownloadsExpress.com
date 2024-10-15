@@ -1,0 +1,61 @@
+DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja de Produtos Digitais</title>
+</head>
+<body>
+    <header>
+        <h1>Loja de Produtos Digitais</h1>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="produto">
+                <h3>E-book: Aprenda a Programar</h3>
+                <p>Preço: R$ 29,90</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto">
+                <h3>Curso Online: Marketing Digital</h3>
+                <p>Preço: R$ 149,90</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto">
+                <h3>Template de Site</h3>
+                <p>Preço: R$ 59,90</p>
+                <button>Comprar</button>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja de Produtos Digitais. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
